@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #b3cde0, #b3cde0);
+  color: #333;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 70%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 1.5rem;
+  outline: none;
+  text-align: center;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+
+.input:focus {
+  background-color: #e3e3e3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.loading-text,
+.error-text {
+  color: red;
+  margin-top: 20px;
+}
+
+.current-weather {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #e3e3e3;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in;
+  transition: transform 0.3s;
+  width: 90%; 
+  max-width: 400px;
+}
+
+.current-weather:hover {
+  transform: scale(1.02); 
+}
+
+.weather-icon {
+  width: 100px;
+  margin: 10px 0;
+}
+
+.forecast {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%; 
+  margin: 0 auto; 
+}
+
+.forecast-day {
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  padding: 15px;
+  min-width: 300px; 
+  max-width: 200px; 
+  margin: 5px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.forecast-day:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  color: #4c83ff;
+  margin: 10px 0;
+}
+
+
+.header-image {
+  width: 50px; 
+  height: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+p{
+  font-size: x-large;
+}
+
+
+
+@media (max-width:768px) {
+  .input{
+    width: 100%;
+  }
+}
+
+
