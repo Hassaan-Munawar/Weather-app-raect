@@ -39,7 +39,6 @@ const WeatherApp = () => {
       setIsLoading(false);
     }
   };
-
   useEffect(() => {
     const timer = setTimeout(() => {
       fetchWeatherData(location);
