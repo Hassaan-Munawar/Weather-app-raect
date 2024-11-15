@@ -1,6 +1,6 @@
 🌤️ Excited to Share My React-based Weather App! 🌦️
 
-I am excited to share the weather app I’ve been building as part of my latest web development project! This app allows users to search for any city and instantly get the current weather conditions as well as a 3-day forecast, displayed with dynamic icons and accurate data from the OpenWeather API.
+I am excited to share the weather app I’ve been building as part of my web development project! This app allows users to search for any city and instantly get the current weather conditions as well as a 3-day forecast, displayed with dynamic icons and accurate data from the OpenWeather API.
 
 🛠️ Key Features:
 
@@ -33,5 +33,3 @@ JavaScript (ES6): To handle logic and interactions, ensuring seamless functional
 🌐 Challenges and Learnings:
 Building this app helped me dive deeper into API integration, managing asynchronous requests, and fine-tuning the user experience with responsive design. Additionally, handling errors and edge cases such as invalid city names allowed me to improve my coding practices when dealing with real-world data.
 I focused heavily on creating a modern, digital look and ensuring that the app is both functional and aesthetically appealing across devices.
-
-🔗 Hosted Link : https://lnkd.in/eCkjtZBf
